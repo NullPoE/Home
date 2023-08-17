@@ -18,7 +18,8 @@ dependencies {
     compileOnly "org.purpurmc.purpur:purpur-api:1.19.2-R0.1-SNAPSHOT"
 
     implementation 'com.google.code.gson:gson:2.7'
+}
 
-    // TEST GRADLE
-    testImplementation 'com.google.code.gson:gson:2.7'
+jar {
+    destinationDirectory.set(file('C:\\Users\\PC\\대영\\스탈리 스토어\\개발용 버킷\\1.20.1\\plugins'))
 }
