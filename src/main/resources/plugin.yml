@@ -1,0 +1,10 @@
+name: Home
+main: io.github.nullpoe.Home
+author: NullPoe
+
+version: 0.1
+api-version: 1.19
+
+commands:
+  home:
+    aliases: [ 집 ]

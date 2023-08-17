@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group = 'io.github.nullpoe'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+    maven { url = "https://repo.purpurmc.org/snapshots" }
+}
+
+dependencies {
+    compileOnly "org.jetbrains:annotations:23.0.0"
+    compileOnly "org.projectlombok:lombok:1.18.26"
+    annotationProcessor "org.projectlombok:lombok:1.18.26"
+
+    compileOnly "org.purpurmc.purpur:purpur-api:1.19.2-R0.1-SNAPSHOT"
+
+    implementation 'com.google.code.gson:gson:2.7'
+
+    // TEST GRADLE
+    testImplementation 'com.google.code.gson:gson:2.7'
+}
+
+jar {
+    destinationDirectory.set(file('C:\\Users\\PC\\대영\\스탈리 스토어\\개발용 버킷\\1.20.1\\plugins'))
+}
